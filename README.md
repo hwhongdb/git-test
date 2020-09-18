@@ -6,14 +6,17 @@
 ## 初始化配置
 #### （1） 查看所有的配置以及它们所在的文件
 > $ git config --list --show-origin
+>
 ####（2）配置用户信息
 > 添加用户名
 >
 > $ git config --global user.name "用户名"
+>
 ####（3）配置用户邮箱
 > 添加用户邮箱
 >
 > $ git config --global user.email "用户邮箱"
+>
 ####（4）查看配置信息
 > 查看用户名
 >
