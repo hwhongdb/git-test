@@ -2,7 +2,6 @@
 ## 示意图
 ![Image text](./img/Git-push-command.jpeg)
 > git是一种分布式版本控制器。
-
 ## 初始化配置
 #### （1） 查看所有的配置以及它们所在的文件
 > $ git config --list --show-origin
@@ -29,21 +28,16 @@
 > 检查当前能找到的配置信息
 >
 > $ git config --list
-
 ## 获取Git仓库
 > 获取现有仓库
 >
 > $ git clone "url地址/ssh" "指定名"
-
 ## 检查当前文件状态
 > $ git status
-
 ## 查看提交历史
 > $ git log
-
 ## 撤消操作
 > $ git reset "指定的暂存文件"
-
 ## 远程仓库的使用
 #### （1）添加远程仓库
 > 添加一个远程库，可指定简称，url地址
@@ -71,7 +65,6 @@
 > $ git remote rename "当前简称" "指定简称"
 >
 > $ git remote remove "简称"
-
 ## 从创建到提交流程
 #### （1）初始化仓库
 > $ git init
