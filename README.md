@@ -1,6 +1,6 @@
 # _Git 使用方法_
 ## 示意图
-![Image text](./img/Git-push-command.jpeg)
+![Image text](img/Git-push-command.jpeg)
 > git是一种分布式版本控制器。
 
 ## 初始化配置
