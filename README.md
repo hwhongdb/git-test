@@ -7,17 +7,17 @@
 #### （1） 查看所有的配置以及它们所在的文件
 > $ git config --list --show-origin
 >
-####（2）配置用户信息
+#### （2）配置用户信息
 > 添加用户名
 >
 > $ git config --global user.name "用户名"
 >
-####（3）配置用户邮箱
+#### （3）配置用户邮箱
 > 添加用户邮箱
 >
 > $ git config --global user.email "用户邮箱"
 >
-####（4）查看配置信息
+#### （4）查看配置信息
 > 查看用户名
 >
 > $ git config user.name
@@ -48,17 +48,17 @@
 #### （1）添加远程仓库
 > 添加一个远程库，可指定简称，url地址
 >
-> git remote add "指定简称" "url地址"
+> $ git remote add "指定简称" "url地址"
 #### （2）查看远程仓库
 > 查看已配置的远程仓库
 >
-> git remote
+> $ git remote
 >
 > 查看远程仓库简写以及对应的url
 >
-> git remote -v
+> $ git remote -v
 #### （3）远程仓库的抓取与拉取
-> git fetch "简称"
+> $ git fetch "简称"
 >
 > 可以用 git pull 命令来自动抓取后合并该远程分支到当前分支。
 #### （4）其他
